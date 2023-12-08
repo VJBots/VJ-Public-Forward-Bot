@@ -4,7 +4,7 @@
 
 #### Environment Variables
 
-<b>- API_ID : Get From [my.telegram.org](https://my.telegram.org)
+- <b>API_ID : Get From [my.telegram.org](https://my.telegram.org)
 - API_HASH : Get From [my.telegram.org](https://my.telegram.org)
 - BOT_TOKEN : Get From [BotFather](https://telegram.me/BotFather)
 - STRING_SESSION : Use Telethon String Session [Generate Here](https://telegram.me/VJStringSessionBot)
