@@ -1,8 +1,8 @@
 https://github.com/Vijay34j/ethon/archive/refs/tags/v0.1.1.2.zip
 telethon
-Flask==2.2.2
-gunicorn==20.1.0
 aiohttp
+Flask==1.1.2
+gunicorn==20.1.0
 Jinja2==3.0.3
 werkzeug==2.0.2
 itsdangerous==2.0.1
