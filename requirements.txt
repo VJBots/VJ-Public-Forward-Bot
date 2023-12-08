@@ -1,0 +1,2 @@
+https://github.com/Vijay34j/ethon/archive/refs/tags/v0.1.1.2.zip
+telethon
