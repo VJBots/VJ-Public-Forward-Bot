@@ -4,11 +4,11 @@
 
 #### Environment Variables
 
-- <b>API_ID : Get From [my.telegram.org](https://my.telegram.org)
-- API_HASH : Get From [my.telegram.org](https://my.telegram.org)
-- BOT_TOKEN : Get From [BotFather](https://telegram.me/BotFather)
-- STRING_SESSION : Use Telethon String Session [Generate Here](https://telegram.me/VJStringSessionBot)
-- SUDO_USERS : It mean Admin Id Only Sudo User can use this bot</b>
+- <b>`API_ID` : Get From [my.telegram.org](https://my.telegram.org)
+- `API_HASH` : Get From [my.telegram.org](https://my.telegram.org)
+- `BOT_TOKEN` : Get From [BotFather](https://telegram.me/BotFather)
+- `STRING_SESSION` : Use Telethon String Session [Generate Here](https://telegram.me/VJStringSessionBot)
+- `SUDO_USERS` : It mean Admin Id Only Sudo User can use this bot</b>
 
 ## How To Make Your Own [Video Tutorial](https://youtube.com/@Tech_Vj)
 
