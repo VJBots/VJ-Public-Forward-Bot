@@ -17,9 +17,6 @@ async def start(event):
     text=f"**ʜɪ ɪ ᴀᴍ ᴀ ᴘᴜʙʟɪᴄ ғᴏʀᴡᴀʀᴅᴇʀ ʙᴏᴛ.** \n**ᴜsɪɴɢ ᴍᴇ ʏᴏᴜ ᴄᴀɴ ғᴏʀᴡᴀʀᴅ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs ɪɴ ᴀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀɴᴏᴛʜᴏʀ ᴇᴀsɪʟʏ** \n**ᴍʏ ᴀᴄᴄᴏᴜɴᴛ ɢᴇᴛ ʙᴀɴ ᴀɴʏᴛɪᴍᴇ ᴀɴᴅ ᴛʜɪs ʙᴏᴛ ᴀʟsᴏ, sᴏ ɪᴏɪɴ ᴏᴜʀ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/vj_botz) ғᴏʀ ɴᴇᴡ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ.**\n**/help ғᴏʀ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʙᴏᴛ**"
     await start_srb(event, text)
 
-
-
-
 @forwardbot_cmd("help", is_args=False)
 async def handler(event):
     await event.respond(help_msg)
@@ -28,13 +25,9 @@ async def handler(event):
 async def handler(event):
     await event.respond(bot.owner)
 
-
-
 @forwardbot_cmd("admin", is_args=False)
 async def handler(event):
     if str(event.sender_id) in sudo_users:
         await event.respond("You are an admin")
     else:
         await event.respond("You are not an admin")
-
-
